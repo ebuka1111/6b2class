@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up to drive</title>
+</head>
+<body>
+    <main>
+        <form>
+            <fieldset>
+                 <h2>become a driver</h2>
+
+                 <p>
+                    <a href="#">sign up to ride</a>
+
+                 </p>
+            </fieldset>
+            <fieldset>
+                <input type="radio" name="car" id="have">
+                <label for="have">i have a car</label>
+
+                <input type="radio" name="car" id="need">
+                <label for="need">i need a car</label>
+            </fieldset>
+            <fieldset>
+                <legend>personal information</legend>
+                <ul>
+                    <li>
+                        <label for="fname">first name</label>
+                        <input type="text" name="fname" id="fname" placeholder="ebuka" required>
+                    </li>
+                    <li>
+                        <label for="sname">surname</label>
+                        <input type="text" name="sname" id="sname" placeholder="your surname" required>
+                    </li>
+                    <li>
+                        <label for="email">email</label>
+                        <input type="email" name="email" id="email" placeholder="ebuak@gmail.com" required>
+                    </li>
+                    <li>
+                        <label for="pw">password</label>
+                        <input type="password" name="password" id="pw" required>
+                    </li>
+                    <li>
+                        <label for="phone">phone number</label>
+                        <input type="tel" name="phone" id="phone">
+                    </li>
+                    <li>
+                        <label for="city">city you will drive in</label>
+                        <select>
+                            <optgroup label="east">
+                                <option value="on">onitsha</option>
+                                <option value="ab">aba</option>
+                                <option value="ow">owerri</option>
+                                <option value="en">enugu</option>
+                            <optgroup label="west">
+                                <option value="lg" selected>lagos</option>
+                                <option value="ab">abeokuta</option>
+                            </optgroup>
+                            <optgroup label="north">
+                                <option value="abj">abuja</option>
+                                <option value="kd">kaduna</option>
+                                </optgroup>
+                            </optgroup>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="code">invite code(optional)</label>
+                        <input type="text" name="code" id="code" min="7" max="7">
+                    </li>
+                    <li>
+                        <input type="checkbox" name="agree1" id="agree1" checked>
+                        <label for="agree1">i accept to all product services to be shared with me on email</label>
+                    </li>
+                    <li>
+                        <label for="photo">your passport phoyograph</label>
+                        <input type="file" name="photo" id="photo" accept=".jpg" multiple>
+                    </li>
+                    <li>
+                        <input type="submit" value="create account">
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
