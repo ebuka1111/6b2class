@@ -10,18 +10,17 @@
     <main>
         <form>
 
-            <fieldset>
+            <fieldset style="width: 18em;">
                <h1>Personal</h1>
-            </fieldset>
+               <hr>
 
-            <fieldset>
                 <ul>
                     <li>
-                        <label for="Name">first name</label>
+                        <label for="Name">first name</label><br>
                         <input type="text" name="Name" id="first name" placeholder="Name">
                     </li>
                     <li>
-                        <label for="Date of birth">Date of birth</label>
+                        <label for="Date of birth">Date of birth</label><br>
                         <select>
                             <optgroup label="Month"><option value="1">01</option><option value="2">02</option><option value="3">03</option><option value="4">04</option><option></option></optgroup>
                         </select>
@@ -33,90 +32,80 @@
                         </select>
                     </li>
                 </ul>
-            </fieldset>
 
-            <fieldset>
                 <ul>
-                    <li>
-                        <label for="favourite animal" >What is your favorite animal?</label>
-                        <select>
-                            <option value="Lion">Lion</option><option value="Tiger">Tiger</option><option value="Bear">Bear</option><option value="Bull">Bull</option><option value="several">several</option>   
-                        </select>
+                    <li>s
+                        <label for="favourite animal">What is your favorite animal?</label><br>
+                        <input style="width: 3cm;" id="Lion" placeholder="Lion">
+                        <input style="width: 3cm;" id="Lion" placeholder="Tiger">
+                        <input style="width: 3cm;" id="Bear" placeholder="Bear">
+                        <input style="width: 3cm;" id="Several" placeholder="Several">
                     </li>
                 </ul>
-            </fieldset>
 
-            <fieldset>
                 <h2>Account</h2>
-            </fieldset>
+                <hr>
 
-            <fieldset>
+
                 <ul>
                     <li>
-                        <label for="mail">Email:</label>
+                        <label for="mail">Email:</label><br>
                         <input type="email" name="Email" id="Email" placeholder="Email">
                     </li>
                 </ul>
-            </fieldset>
 
-            <fieldset>
                 <ul>
                     <li>
-                        <label for="Password">Password:</label>
+                        <label for="Password">Password:</label><br>
                         <input type="password" name="password" id="password" placeholder="Password">
                     </li>
                 </ul>
-            </fieldset>
 
-            <fieldset>
+
+
                 <ul>
                     <li>
-                        <label for="password">Verify Password:</label>
+                        <label for="password">Verify Password:</label><br>
                         <input type="password" name="verify password" id="verify password" placeholder="verify password">
                     </li>
                 </ul>
-            </fieldset>
 
-            <fieldset>
                 <h2>Contact</h2>
-            </fieldset>
+                <hr>
 
-            <fieldset>
                 <ul>
                     <li>
-                        <label for="Address">Address:</label>
+                        <label for="Address">Address:</label><br>
                         <input type="text" id="Address" name="Address">
                     </li>
                 </ul>
-            </fieldset>
 
-            <fieldset>
                 <ul>
                     <li>
-                        <label for="city">City:</label>
+                        <label for="city">City:</label><br>
                         <input type="text" id="City" name="City">
                     </li>
                 </ul>
-            </fieldset>
 
-            <fieldset>
                 <ul>
                     <li>
-                        <label for="state">State:</label>
+                        <label for="state">State:</label><br>
                         <select>
                             <option value="lagos">lagos</option><option value="Abuja">Abuja</option><option value="Enugu">Enugu</option><option value="Delta">Delta</option><option value="Abia">Abia</option>
                         </select>
                     </li>
                 </ul>
-            </fieldset>
 
-            <fieldset>
                 <ul>
                     <li>
-                        <label for="phone">Phone:</label>
+                        <label for="phone">Phone:</label><br>
                         <input form="phone" id="Phone" name="Phone" placeholder="xxx-xxx-xxx-xx">
                     </li>
                 </ul>
+                <p>
+                    <input type="submit" id="Submit" name="submit">
+                    <input type="reset" id="Reset" name="Reset">
+                </p>
             </fieldset>
         </form>
     </main>
