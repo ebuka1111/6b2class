@@ -1,113 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign of Form</title>
+  </head>
+  <body>
     <main>
-        <form>
+      <form style="margin: auto">
+        <fieldset style="width: 18em">
+          <h1>Personal</h1>
+          <hr />
+          <p>
+            <label for="Name">first name</label><br />
+            <input type="text" name="Name" id="first name" placeholder="Name" />
+          </p>
+          <p>
+            <label for="Date of birth">Date of birth</label><br />
+            <select>
+              <optgroup label="Month">
+                <option value="1">01</option>
+                <option value="2">02</option>
+                <option value="3">03</option>
+                <option value="4">04</option>
+                <option></option>
+              </optgroup>
+            </select>
+            <select>
+              <optgroup label="Day">
+                <option value="2">02</option>
+                <option value="3">03</option>
+                <option value="4">04</option>
+                <option value="5">05</option>
+              </optgroup>
+            </select>
+            <select>
+              <optgroup label="Year">
+                <option value="95">1995</option>
+                <option value="96">1996</option>
+                <option value="97">1997</option>
+                <option value="98">1998</option>
+                <option value="98">1998</option>
+                <option value="99">1999</option>
+                <option value="20">2000</option>
+              </optgroup>
+            </select>
+          </p>
+          <p>
+            <label for="favourite animal">What is your favorite animal?</label
+            ><br />
+            <input style="width: 3cm" id="Lion" placeholder="Lion" />
+            <input style="width: 3cm" id="Tiger" placeholder="Tiger" />
+            <input style="width: 3cm" id="Bear" placeholder="Bear" />
+            <input style="width: 3cm" id="Several" placeholder="Several" />
+          </p>
+          <h2>Account</h2>
+          <hr />
 
-            <fieldset style="width: 18em;">
-               <h1>Personal</h1>
-               <hr>
+          <p>
+            <label for="mail">Email:</label><br />
+            <input type="email" name="Email" id="Email" placeholder="Email" />
+          </p>
 
-                <ul>
-                    <li>
-                        <label for="Name">first name</label><br>
-                        <input type="text" name="Name" id="first name" placeholder="Name">
-                    </li>
-                    <li>
-                        <label for="Date of birth">Date of birth</label><br>
-                        <select>
-                            <optgroup label="Month"><option value="1">01</option><option value="2">02</option><option value="3">03</option><option value="4">04</option><option></option></optgroup>
-                        </select>
-                        <select>
-                            <optgroup label="Day"><option value="2">02</option><option value="3">03</option><option value="4">04</option><option value="5">05</option></optgroup>
-                        </select>
-                        <select>
-                            <optgroup label="Year"><option value="95">1995</option><option value="96">1996</option><option value="97">1997</option><option value="98">1998</option><option value="98">1998</option><option value="99">1999</option><option value="20">2000</option></optgroup>
-                        </select>
-                    </li>
-                </ul>
+          <p>
+            <label for="Password">Password:</label><br />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+          </p>
 
-                <ul>
-                    <li>s
-                        <label for="favourite animal">What is your favorite animal?</label><br>
-                        <input style="width: 3cm;" id="Lion" placeholder="Lion">
-                        <input style="width: 3cm;" id="Lion" placeholder="Tiger">
-                        <input style="width: 3cm;" id="Bear" placeholder="Bear">
-                        <input style="width: 3cm;" id="Several" placeholder="Several">
-                    </li>
-                </ul>
+          <p>
+            <label for="password">Verify Password:</label><br />
+            <input
+              type="password"
+              name="verify password"
+              id="verify password"
+              placeholder="verify password"
+            />
+          </p>
 
-                <h2>Account</h2>
-                <hr>
+          <h2>Contact</h2>
+          <hr />
 
+          <p>
+            <label for="Address">Address:</label><br />
+            <input type="text" id="Address" name="Address" />
+          </p>
 
-                <ul>
-                    <li>
-                        <label for="mail">Email:</label><br>
-                        <input type="email" name="Email" id="Email" placeholder="Email">
-                    </li>
-                </ul>
+          <p>
+            <label for="city">City:</label><br />
+            <input type="text" id="City" name="City" />
+          </p>
 
-                <ul>
-                    <li>
-                        <label for="Password">Password:</label><br>
-                        <input type="password" name="password" id="password" placeholder="Password">
-                    </li>
-                </ul>
+          <p>
+            <label for="state">State:</label><br />
+            <select>
+              <option value="lagos">lagos</option>
+              <option value="Abuja">Abuja</option>
+              <option value="Enugu">Enugu</option>
+              <option value="Delta">Delta</option>
+              <option value="Abia">Abia</option>
+            </select>
+          </p>
 
-
-
-                <ul>
-                    <li>
-                        <label for="password">Verify Password:</label><br>
-                        <input type="password" name="verify password" id="verify password" placeholder="verify password">
-                    </li>
-                </ul>
-
-                <h2>Contact</h2>
-                <hr>
-
-                <ul>
-                    <li>
-                        <label for="Address">Address:</label><br>
-                        <input type="text" id="Address" name="Address">
-                    </li>
-                </ul>
-
-                <ul>
-                    <li>
-                        <label for="city">City:</label><br>
-                        <input type="text" id="City" name="City">
-                    </li>
-                </ul>
-
-                <ul>
-                    <li>
-                        <label for="state">State:</label><br>
-                        <select>
-                            <option value="lagos">lagos</option><option value="Abuja">Abuja</option><option value="Enugu">Enugu</option><option value="Delta">Delta</option><option value="Abia">Abia</option>
-                        </select>
-                    </li>
-                </ul>
-
-                <ul>
-                    <li>
-                        <label for="phone">Phone:</label><br>
-                        <input form="phone" id="Phone" name="Phone" placeholder="xxx-xxx-xxx-xx">
-                    </li>
-                </ul>
-                <p>
-                    <input type="submit" id="Submit" name="submit">
-                    <input type="reset" id="Reset" name="Reset">
-                </p>
-            </fieldset>
-        </form>
+          <p>
+            <label for="phone">Phone:</label><br />
+            <input
+              form="phone"
+              id="Phone"
+              name="Phone"
+              placeholder="xxx-xxx-xxx-xx"
+            />
+          </p>
+          <p>
+            <input type="submit" id="Submit" name="submit" />
+            <input type="reset" id="Reset" name="Reset" />
+          </p>
+        </fieldset>
+      </form>
     </main>
-</body>
+  </body>
 </html>
