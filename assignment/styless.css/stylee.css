@@ -1,0 +1,23 @@
+div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+h1 {
+    font-family: 'pacifico',cursive;
+    text-transform: uppercase;
+    font-size: 2rem;
+    transition: all 1s ease-in-out;
+    color: transparent;
+    background: conic-gradient(blue 17%, green 17%, green 30%, violet 30%, violet 55%, cyan 55%, tomato 55%, tomato 75%, lime 75%);
+    -webkit-background-clip: text;
+}
+h1:hover {
+    cursor: pointer0;
+    font-size: 3rem;
+    height: 30vh;
+    background: conic-gradient(blue 17%, green 17%, green 30%, violet 30%, violet 55%, cyan 55%, tomato 55%, tomato 75%, lime 75%);
+    -webkit-background-clip: text;
+}

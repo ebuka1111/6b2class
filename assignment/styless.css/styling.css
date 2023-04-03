@@ -1,0 +1,88 @@
+:root{
+    margin:0;
+    padding: 0;
+    --bg-color:#ff1111;
+    --text-color:#fff;
+}
+body{
+    margin: 0;
+}
+@media screen and (min-width: 768px){
+    .container{
+        height: 100vh;
+        background-image: url(/assignment/media/snow\ road.jpg), url(/assignment/media/jessy.bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 5px 20px;
+    }
+
+    nav img{
+        width: 30px;
+    }
+
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 0 1em;
+    }
+
+    nav a{
+        margin-left: 10px;
+        text-decoration: none;
+        color: var(--bg-color);
+    }
+    .btn{
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        border: none;
+        border-radius: 20px;
+        transition-property: all;
+        transition-duration: 1s;
+        transition-delay: .5s;
+        transition-timing-function: ease-in;
+    }
+    nav button:hover{
+        background-color: var(--text-color);
+        color: var(--bg-color);
+    }
+    .profile{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .profile h2{
+       font-family: Roboto, sans-serif;
+    }
+    .profile p, .profile span{
+        color: var(--bg-color);
+        font-size: ;
+    }
+    .profile p:last-of-type{
+        color:var(--text-color);
+    }
+    .about{
+        background-color: rgd(25, 24, 24);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 3em;
+    }
+    .img{
+        background-image: url(/assignment/media/jessy.bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 10px solid var(--bg-color);
+    }
+    .about div{
+        height: 300px;
+    }
+    .about h2, .about h2 +p{
+        color: var(--bg-color);
+    }
+}
