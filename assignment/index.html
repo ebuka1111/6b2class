@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      main{
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-template-rows: 100px, 100px, 100px, 200px, 200px;
+          gap: 20px 10px ;
+          grid-template-areas: "a a b"
+                               "a a b"
+                               "a a b"
+                               "c d e"
+                               "f f f"
+      }
+      section,aside,footer{
+          background-color: aqua;
+      }
+      section:nth-of-type(1){
+              grid-area: a;
+      }
+      section:nth-of-type(2){
+              grid-area: b;
+      }
+      section:nth-of-type(3){
+             grid-area:c;
+      }
+      section:nth-of-type(4){
+             grid-area: d;
+      }
+      section:nth-of-type(5){
+            grid-area: e;
+
+      }
+      aside{
+          grid-area: e;
+      }
+      footer{
+          grid-area: f;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. A fugit
+        reiciendis magni quisquam, minima nam eligendi facere, quas dolore
+        voluptatem officiis praesentium voluptate quia, temporibus suscipit est
+        numquam? Quaerat, minus?
+      </section>
+      <section>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. A fugit
+        reiciendis magni quisquam, minima nam eligendi facere, quas dolore
+        voluptatem officiis praesentium voluptate quia, temporibus suscipit est
+        numquam? Quaerat, minus?
+      </section>
+      <section>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. A fugit
+        reiciendis magni quisquam, minima nam eligendi facere, quas dolore
+        voluptatem officiis praesentium voluptate quia, temporibus suscipit est
+        numquam? Quaerat, minus?
+      </section>
+      <section>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+        necessitatibus incidunt! Dolor voluptatem deleniti, eius inventore
+        aliquam labore error aut odio veniam ad impedit praesentium. Maiores,
+        ipsum. Ratione, delectus voluptatem.
+      </section>
+      <aside>
+        <article>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut debitis
+          iure dolor tempore velit quaerat eum accusantium ipsam quod suscipit
+          possimus modi amet laudantium officiis dolorum, obcaecati molestiae
+          voluptatum fuga!
+        </article>
+        <article>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut debitis
+          iure dolor tempore velit quaerat eum accusantium ipsam quod suscipit
+          possimus modi amet laudantium officiis dolorum, obcaecati molestiae
+          voluptatum fuga!
+        </article>
+        <article>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut debitis
+          iure dolor tempore velit quaerat eum accusantium ipsam quod suscipit
+          possimus modi amet laudantium officiis dolorum, obcaecati molestiae
+          voluptatum fuga!
+        </article>
+      </aside>
+      <footer>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam facere eos
+        rem harum iusto qui sequi accusantium, voluptas vel iure dolor illo non
+        deleniti dolore placeat voluptate, asperiores, expedita voluptates.
+      </footer>
+    </main>
+  </body>
+</html>

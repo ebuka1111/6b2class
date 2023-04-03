@@ -1,0 +1,10 @@
+
+nav li {
+  display: grid;
+  align-items: center;
+  flex-direction: row-reverse;
+  text-decoration: none;
+  background: fixed;
+  padding: 2em;
+  border-radius: 1em;
+}
