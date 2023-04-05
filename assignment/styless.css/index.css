@@ -98,6 +98,7 @@ header {
   .button2:hover{
     background-image: url(/assignment/media/bunny-155674__340.webp);
     transition: all 3s linear;
+    transform: rotate(360deg);
   }
   .button2{
     background-color:var(--bg-color);
@@ -111,3 +112,37 @@ header {
      width: 20vw;
      height: 20vh;
   }
+  .button1{
+    background-color:var(--bg-color);
+    margin-top: 44px;
+     padding: 9px 14px;
+     border-radius: 22px;
+     font-weight: bold;
+     font-size: 21px;    
+     margin: 0 3px;
+     cursor: pointer;
+     width: 10vw;
+     height: 10vh;
+  }
+  .button1:hover{
+    transition: all 3s linear;
+    transform: rotate(180deg);
+    background-image: url(/assignment/media/elephant-5553128__340.webp);
+  }
+  .audio-player {--player-button-width: 3em;--sound-button-width: 2em; --space:.5em;}
+
+     .foot{
+      background-image: url(/assignment/media/cupid-5782975__340.webp);
+      display: flex;
+      align-items: space-evenly;
+      height: 15vh;
+      color: var(--text-color);
+      border: 10px solid var(--bg-color);
+      justify-content: center;
+      /* flex-direction: row; */
+    }
+    .lient{
+      list-style-type: none;
+      font-size: 20px;
+      /* text-decoration:blueviolet */
+    }
